@@ -24,8 +24,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define VENDOR_ID       0x7983
 #define PRODUCT_ID      0x4C4C // "LL"
 #define DEVICE_VER      0x0100
-#define MANUFACTURER    Keycapsss
-#define PRODUCT         Lily58L
+#define MANUFACTURER    Alejandro
+#define PRODUCT         KeyboardAlex
 
 /* key matrix size */
 // Rows are doubled-up
@@ -43,11 +43,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #define RGB_DI_PIN D3
 #define RGBLED_SPLIT { 35, 35 }
-#define RGBLED_NUM 70
-#define RGBLIGHT_SPLIT
+#define RGBLED_NUM 72
+#define RGBLIGHT_SPLIT { 36, 36 }
 #define RGBLIGHT_LIMIT_VAL 120
 
-#define ENCODERS_PAD_A { F4 }
+#define ENCODERS_PAD_A { D4 }
 #define ENCODERS_PAD_B { F5 }
 #define ENCODERS_PAD_A_RIGHT { F5 }
-#define ENCODERS_PAD_B_RIGHT { F4 }
+#define ENCODERS_PAD_B_RIGHT { D4 }
